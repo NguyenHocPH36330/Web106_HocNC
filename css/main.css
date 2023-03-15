@@ -1,4 +1,4 @@
-/*Xử lý giao diện trên kích thước màn hình tối đa 768px
+/*Xử lý giao diện trên kích thước màn hình tối đa 768px*/
 @media all and (max-width: 768px) {
     h2{
         text-align: center;
@@ -20,8 +20,8 @@ nav a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}*/
-body {
+}
+/*body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -31,7 +31,7 @@ body {
     color: #000;
   }
   
-  /* header */
+   header 
   
   .header {
     background-color: #fff;
@@ -58,4 +58,4 @@ body {
   .header li a:hover,
   .header .menu-btn:hover {
     background-color: #f4f4f4;
-  }
+  }*/

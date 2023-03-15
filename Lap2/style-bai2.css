@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+.item1{
+    background-color: #4CAF50;
+    height: 35px;
+}
+.item2{
+    background-color: #FF9800;
+}
+.item3{
+    background-color: #da952d;
+    height: 35px;
+}
+@media all and (max-width:768px){
+      .item1{
+        width: 90%;
+        height: 35px;
+        margin: auto;
+      }
+      .item2{
+        width: 85%;
+         margin: auto;
+        
+      }
+      .item3{
+        width: 90%;
+        height: 35px;
+        margin: auto;
+      }
+}
+@media all and (min-width:768px){
+    .item1{
+        width: 100%;
+        height: 35px;
+      }
+      .item2{
+        width: 55%;
+         margin: auto;
+      }
+      .item3{
+        width: 100%;
+        height: 35px;
+      }
+}
