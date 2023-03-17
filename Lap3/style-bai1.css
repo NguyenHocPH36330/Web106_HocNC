@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+margin: 0;
+}
+.box1 {
+    background-color: #EEEEEE;
+    padding: 30px;
+}
+.flex {
+  
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+   gap:30px;
+}
+.box2 {
+    background-color: #EEEEEE;
+    margin-top: 8px;
+    padding: 15px;
+}
+.box3 {
+    background-color: #EEEEEE;
+    margin-top: 8px;
+    padding: 18px;
+}
+.magin{
+    width: 25%;  background-color: #EEEEEE;
+    padding: 150px;
+}
+.magin-1{
+    width: 50%;
+    padding: 150px;
+    background-color: #EEEEEE;
+}
+
