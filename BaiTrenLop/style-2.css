@@ -1,0 +1,26 @@
+body{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.container{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    line-height: 100px;
+}
+.item{
+    border: 1px solid;
+    font-size: 30px;
+}
+.item:nth-child(1){
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+}
+.item:nth-child(18){
+    grid-column: 1/3;
+    
+}
