@@ -33,6 +33,7 @@
   align-items: center;
   padding: 20px;
   justify-content: space-between;
+  background-color: #000000;
 }
 #menu2 {
   display: none;
@@ -241,7 +242,7 @@ grid-template-columns: repeat(4,minmax(0,1fr));
 }
 .item > img
 {
-  width: 100%;
+  width: 60%;
 }
 .pt-10
 {
@@ -251,6 +252,7 @@ grid-template-columns: repeat(4,minmax(0,1fr));
 .item {
   border-radius: 5px;
   overflow: hidden;
+  text-align: center;
 }
 .item > div {
   padding: 10px;
